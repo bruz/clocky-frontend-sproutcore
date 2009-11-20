@@ -1,0 +1,22 @@
+== Clocky SproutCore Frontend
+
+Clocky is a trivial web application that is being implemented using different client-side 
+frameworks. This is the SproutCore[http://www.sproutcore.com] implementation. It requires 
+the {Clocky Rails Backend}[http://github.com/bruz/clocky-backend-rails.git].
+
+=== Running the Clocky SproutCore Frontend
+
+Install the {Clocky Rails Backend}[http://github.com/bruz/clocky-backend-rails.git] as 
+described in its {README.rdoc on github}[http://github.com/bruz/clocky-backend-rails/blob/master/README.rdoc].
+Make sure to run it on port 3000 (the Rails default) as that's what the SproutCore app will expect.
+
+Make sure you have the following prerequisites:
+- Ruby
+- RubyGems
+- The sproutcore RubyGem (which will install additional gem dependencies)
+
+Once those are in place, simply run this in the applications root folder:
+
+  sc-server
+
+You should now be able to browse to http://localhost:4020/clocky and see the application.
