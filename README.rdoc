@@ -20,3 +20,8 @@ Once those are in place, simply run this in the applications root folder:
   sc-server
 
 You should now be able to browse to http://localhost:4020/clocky and see the application.
+
+=== Other Clocky frontend implementations
+
+- {Clocky RestfulX Frontend}[http://github.com/bruz/clocky-frontend-restfulx]
+- {Clocky Cappuccino Frontend}[http://github.com/bruz/clocky-frontend-cappuccino]
